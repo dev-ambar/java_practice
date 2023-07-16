@@ -1,6 +1,6 @@
 package collection;
 
-public class CustomLinkedlist {
+public class CustomLinkedList {
 
     private Node head;
 
@@ -114,7 +114,7 @@ class LinkedListTest
 {
     public static void main (String [] arg)
     {
-        CustomLinkedlist list = new CustomLinkedlist();
+        CustomLinkedList list = new CustomLinkedList();
          list.insert(10);
          list.insert(20);
          list.insert(30);

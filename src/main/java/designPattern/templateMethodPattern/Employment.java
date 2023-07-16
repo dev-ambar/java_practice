@@ -16,7 +16,7 @@ abstract class Employment {
 
     }
 
-    class JobEmployementForJava extends  Employment
+    class JobEmploymentForJava extends  Employment
     {
 
         @Override
@@ -43,7 +43,7 @@ abstract class Employment {
       class Test
       {
           public static void main(String[] args) {
-              Employment emp = new JobEmployementForJava();
+              Employment emp = new JobEmploymentForJava();
               emp.becomeEmployee();
           }
       }
